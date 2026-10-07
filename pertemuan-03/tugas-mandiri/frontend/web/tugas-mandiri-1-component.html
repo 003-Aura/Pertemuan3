@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu Biodata - Component</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 360px;
+      padding: 24px;
+      text-align: center;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .card h1 {
+      margin: 16px 0 8px;
+      font-size: 24px;
+    }
+
+    .card p {
+      margin: 0 0 20px;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      background: palevioletred;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="aura.jpeg" alt="Foto Aura Illa Sari">
+
+    <h1>Aura Illa Sari</h1>
+
+    <p>NIM: 2024520003</p>
+
+    <button class="btn">Lihat Profil</button>
+  </div>
+</body>
+</html>
