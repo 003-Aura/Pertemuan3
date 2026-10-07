@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Profil - Tailwind</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-5 py-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+      
+      <h1 class="text-xl font-bold text-pink-600">
+        Aura Profile
+      </h1>
+
+      <div class="flex gap-5 text-sm font-medium">
+        <a href="#" class="hover:text-pink-600">
+          Beranda
+        </a>
+        <a href="#" class="hover:text-pink-600">
+          Profil
+        </a>
+        <a href="#" class="hover:text-pink-600">
+          Kontak
+        </a>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <section class="bg-pink-100">
+    <div class="max-w-6xl mx-auto px-5 py-12 flex flex-col gap-8 md:flex-row md:items-center">
+
+      <div class="flex-1">
+        <p class="mb-2 text-sm font-semibold text-pink-600">
+          PROFIL MAHASISWA
+        </p>
+
+        <h2 class="text-3xl font-bold md:text-4xl">
+          Selamat Datang di Profil Saya
+        </h2>
+
+        <p class="mt-4 text-gray-600">
+          Halo, saya Aura Illa Sari, mahasiswa Informatika yang
+          sedang belajar pengembangan aplikasi dan teknologi.
+        </p>
+
+        <button class="mt-6 rounded-lg bg-pink-500 px-5 py-2.5
+                       text-white hover:bg-pink-600 hover:shadow-lg">
+          Lihat Profil
+        </button>
+      </div>
+
+      <div class="flex justify-center md:flex-1">
+        <img
+          src="aura.jpeg"
+          alt="Foto Aura Illa Sari"
+          class="h-40 w-40 rounded-full object-cover shadow-md md:h-48 md:w-48"
+        >
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Content Cards -->
+  <main class="max-w-6xl mx-auto px-5 py-10">
+
+    <div class="mb-6">
+      <h2 class="text-2xl font-bold">
+        Informasi Saya
+      </h2>
+
+      <p class="mt-2 text-gray-600">
+        Beberapa informasi mengenai profil dan kegiatan saya.
+      </p>
+    </div>
+
+
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
+
+      <!-- Card 1 -->
+      <div class="rounded-xl bg-white p-6 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <h3 class="text-lg font-bold text-pink-600">
+          Biodata
+        </h3>
+
+        <p class="mt-3 text-gray-600">
+          Nama: Aura Illa Sari
+        </p>
+
+        <p class="mt-1 text-gray-600">
+          NIM: 2024520003
+        </p>
+
+        <p class="mt-1 text-gray-600">
+          Program Studi: Informatika
+        </p>
+
+      </div>
+
+
+      <!-- Card 2 -->
+      <div class="rounded-xl bg-white p-6 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <h3 class="text-lg font-bold text-pink-600">
+          Jadwal kuliah
+        </h3>
+
+        <p class="mt-3 text-gray-600">
+          Perkuliahan dilaksanakan Senin sampai Sabtu
+        dengan jadwal yang berbeda setiap harinya.
+        </p>
+
+
+        <p class="mt-3 text-sm text-gray-500">
+  Jadwal lengkap dapat dilihat pada jadwal akademik.
+</p>
+
+      </div>
+
+
+      <!-- Card 3 -->
+      <div class="rounded-xl bg-white p-6 shadow-md
+                  transition hover:-translate-y-1 hover:shadow-lg">
+
+        <h3 class="text-lg font-bold text-pink-600">
+          Project
+        </h3>
+
+        <p class="mt-3 text-gray-600">
+          Salah satu project yang pernah saya kerjakan adalah
+          Sistem Manajemen Organisasi Mahasiswa HIMA.
+        </p>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="mt-5 bg-gray-800 px-5 py-6 text-center text-white">
+
+    <p class="text-sm">
+      © 2026 Aura Illa Sari. Semua hak dilindungi.
+    </p>
+
+  </footer>
+
+</body>
+</html>
